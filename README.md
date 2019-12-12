@@ -1,15 +1,30 @@
 ### Date created
-Include the date you created this project and README file.
+This project created in *12 December 2019.*
 
 ### Project Title
-Replace the Project Title
+*Analysis and Explore the bikeshare system in USA*
 
 ### Description
-Describe what your project is about and what it does
+Analysis data related to **the Bike Share System** for the three cities in the **USA**  **Chicago**, **New York City**, and **Washington** based on **python programming.**
+
 
 ### Files used
-Include the files used
+In this project the following files are used.
+<ol>
+
+<li>chicago.csv</li>
+<li>new_york_city.csv</li>
+<li>washington.csv</li>
+<li>bikeshare_solution.py</li>
+
+</ol>
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Reference sites that was helpful in doing this project are.
 
+<ul>
+
+<li><a href="https://www.pythonforbeginners.com/basics/">Python for Beginners</a></li>
+<li><a href="https://www.tutorialspoint.com/python_data_science/index.htm">Tutorials Point</a></li>
+
+</ul>
