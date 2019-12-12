@@ -37,10 +37,10 @@ def ask_user():
     # get  input from the user for month (all, january, february, ... , june)
     correct_month_choice = ['all' , 'january' , 'february' , 'march' , 'april' , 'may' , 'june']
     while True:
-        ask_about_month = input("Which month do you want to chose? (All, January , February , March , April , May or June) :  ")
+        chose_the_month = input("Which month do you want to chose? (All, January , February , March , April , May or June) :  ")
         print("")
-        if ask_about_month.lower() in correct_month_choice:
-            month = ask_about_month
+        if chose_the_month.lower() in correct_month_choice:
+            month = chose_the_month
             break
         else:
             print("This is wrong, select the correct month (All , January , February , March , April , May or June)")
