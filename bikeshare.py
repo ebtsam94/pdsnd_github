@@ -50,10 +50,10 @@ def ask_user():
     # get  input from the user for day of week (all, monday, tuesday, ... sunday)
     correct_day = ['all' , 'monday' , 'tuesday' , 'wednesday' , 'thursday', 'friday' , 'saturday' , 'sunday' ]
     while True:
-        ask_about_days = input("Which day do you want to chose? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
+        chose_the_days = input("Which day do you want to chose? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
         print("")
-        if ask_about_days.lower() in correct_day:
-            day = ask_about_days
+        if chose_the_days.lower() in correct_day:
+            day = chose_the_days
             break
         else:
             print("This is wrong, select the correct day (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday)")
