@@ -39,10 +39,10 @@ def ask_user():
     # get  input from the user for month (all, january, february, ... , june)
     correct_month_choice = ['all' , 'january' , 'february' , 'march' , 'april' , 'may' , 'june']
     while True:
-        ask_about_month = input("Which month do you want to chose? (All, January , February , March , April , May or June) :  ")
+        chose_the_month = input("Which month do you want to chose? (All, January , February , March , April , May or June) :  ")
         print("")
-        if ask_about_month.lower() in correct_month_choice:
-            month = ask_about_month
+        if chose_the_month.lower() in correct_month_choice:
+            month = chose_the_month
             break
         else:
             print("This is wrong, select the correct month (All , January , February , March , April , May or June)")
@@ -52,10 +52,10 @@ def ask_user():
     # get  input from the user for day of week (all, monday, tuesday, ... sunday)
     correct_day = ['all' , 'monday' , 'tuesday' , 'wednesday' , 'thursday', 'friday' , 'saturday' , 'sunday' ]
     while True:
-        ask_about_days = input("Which day do you want to chose? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
+        chose_the_days = input("Which day do you want to chose? (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday) :  ")
         print("")
-        if ask_about_days.lower() in correct_day:
-            day = ask_about_days
+        if chose_the_days.lower() in correct_day:
+            day = chose_the_days
             break
         else:
             print("This is wrong, select the correct day (All , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday)")
@@ -77,12 +77,12 @@ def loading_datasts(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    city = city.lower()
+    city_name = city.lower()
     month = month.lower()
     day = day.lower()
 
     # load data file into a dataframe
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(CITY_DATA[city_name])
 
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
