@@ -26,5 +26,6 @@ Reference sites that was helpful in doing this project are.
 
 <li><a href="https://www.pythonforbeginners.com/basics/">Python for Beginners</a></li>
 <li><a href="https://www.tutorialspoint.com/python_data_science/index.htm">Tutorials Point</a></li>
+<li><a href="https://www.dataquest.io/python-tutorials-for-data-science/">Tutorials in The DataScience</a></li>
 
 </ul>
