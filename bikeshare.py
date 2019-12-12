@@ -1,3 +1,5 @@
+# This project aims to analysis and explore the bikeshare system datasets.
+
 import time
 import numpy as np
 import pandas as pd
